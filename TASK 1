@@ -1,0 +1,11 @@
+ Generat a random number within a specified range. such as 1 to 100
+
+import java. util. Random;
+public class Main {
+public static void main(String[] args) {
+// create instance of Random class.
+Random randomNum = new Random();
+int showMe = randomNum. nextInt(100);
+System. out. println("Random number between 1 and 100: " + showMe);
+}
+}
